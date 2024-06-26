@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+
+body {
+
+    background-color: aqua;
+    background-image: url("./assets/pokedex.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    /* ??? */
+}
+
+min img {
+    max-width: 200px;
+}
+
+main h1 {
+
+    color: #FEFEFE;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+#formulario {
+
+    display: flex;
+    max-width: 300px;
+    height: 28px;
+    background-color: #FF474C;
+    border-radius: 8px;
+
+}
+
+#formulario input {
+
+    padding: 4px;
+    width: 80%;
+    border-radius: 8 0px 0px 8;
+}
+
+#formulario button {
+
+    width: 20%;
+    border-radius: 0 8px 8px 0;
+    border: 0;
+    cursor: pointer;
+    background-color: #FF474C;
+    font-size: 24px;
+
+}
+
+#formulario button:hover {
+    background-color: rgb(219, 41, 41);
+    color: white
+}
+
+#ver-mais {
+
+    display: flex;
+    gap: 1rem;
+    background-color: transparent;
+    padding: 4px 12px;
+    border: 2px solid #FEFEFE;
+    border-radius: 8px;
+    color: #FEFEFE;
+    font-weight: 700;
+    opacity: .6;
+}
+
+#ver-mais:hover {
+    background-color: white;
+    opacity: 1;
+    color: red;
+}
+
+#modal {
+
+    position: absolute;
+    margin: auto;
+
+    height: 350px;
+    width: 90%;
+    max-width: 500px;
+    padding: 1rem;
+
+    background-color: #FEFEFE;
+
+    display: none;
+    border-radius: 16px;
+
+
+}
+
+#img-pokemon {
+
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: rgb(185, 182, 182);
+
+}
+
+#img-pokemon img{
+
+    width: 80%;
+
+}
+
+#about-pokemon {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+#name {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#types {
+    display: flex;
+    gap: 1rem;
+}
+
+.type {
+    padding: 4px 16px;
+    background-color: black;
+    border-radius: 16px;
+    font-weight: 200;
+    color: #FEFEFE
+}
+
+.fire{
+    background-color: red;
+}
+
+.normal {
+    background-color: grey;
+}
